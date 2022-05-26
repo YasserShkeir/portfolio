@@ -27,8 +27,8 @@ const projects = [
       "A mobile-first, responsive, sleek website to show off my skills.",
     image: "/images/dev2.png",
     tags: ["NextJS", "Node", "Cypress", "Happo.io"],
-    source: "",
-    visit: "",
+    source: "https://github.com/YasserShkeir/portfolio",
+    visit: "https://portfolio-eight-lilac-31.vercel.app/",
     id: 2,
   },
 ];
