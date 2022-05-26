@@ -28,7 +28,7 @@ const projects = [
     image: "/images/dev2.png",
     tags: ["NextJS", "Node", "Cypress", "Happo.io"],
     source: "https://github.com/YasserShkeir/portfolio",
-    visit: "https://portfolio-eight-lilac-31.vercel.app/",
+    visit: "https://portfolio-yassershkeir.vercel.app/",
     id: 2,
   },
 ];
