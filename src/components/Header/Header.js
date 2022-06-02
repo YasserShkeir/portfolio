@@ -40,7 +40,7 @@ const Header = () =>  (
         </Link>
       </li>
       <li>
-        <Link href="https://www.youtube.com/" target="_blank">
+        <Link href="https://twitter.com/" passHref>
           <NavLink>Resume</NavLink>
         </Link>
       </li>
