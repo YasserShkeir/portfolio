@@ -13,13 +13,9 @@ const Footer = () => {
           <LinkItem href="mailto:shkeiryasse@gmail.com">
             click to email me
           </LinkItem>
-        </LinkColumn>
-      </LinkList>
-      <LinkList>
-        <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:shkeiryasse@gmail.com">
-            click to email me
+          <LinkTitle>Phone</LinkTitle>
+          <LinkItem href="tel:+961 81 758 391">
+            +961 81 758 391
           </LinkItem>
         </LinkColumn>
       </LinkList>
