@@ -15,13 +15,13 @@ const Footer = () => {
           </LinkItem>
           <LinkTitle>Phone</LinkTitle>
           <LinkItem href="tel:+961 81 758 391">
-            +961 81 758 391
+            click to call me
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Made with ❤️</Slogan>
+          <Slogan>Made with ❤️ by Y.S.</Slogan>
         </CompanyContainer>
         <SocialDetails></SocialDetails>
       </SocialIconsContainer>
