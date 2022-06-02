@@ -39,6 +39,11 @@ const Header = () =>  (
           <NavLink>About</NavLink>
         </Link>
       </li>
+      <li>
+        <Link href="#resume">
+          <NavLink>Download Resume</NavLink>
+        </Link>
+      </li>
     </Div2>
     <SocialDetails>
 
