@@ -1,7 +1,7 @@
 export const timelineData = [
   {
     year: 2022,
-    text: "Graduated with a Computer Science degree",
+    text: "Graduated with a Bachelors Degree in Computer Science",
   },
   {
     year: 2022,
