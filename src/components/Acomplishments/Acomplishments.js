@@ -1,13 +1,17 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
-  { number: 5, text: 'Open Source Projects'},
-  { number: 10, text: 'Students', },
-  { number: 3, text: 'Honors Lists', },
-  { number: 3.65, text: 'Cumulative GPA', }
+  { String: "5+", text: "Open Source Projects" },
+  { String: "5+", text: "Students" },
+  { String: "3", text: "Honors Lists" },
+  { String: "3.67", text: "Cumulative GPA" },
 ];
 
 const Acomplishments = () => (
@@ -16,7 +20,7 @@ const Acomplishments = () => (
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
-          <BoxNum>{card.number}+</BoxNum>
+          <BoxNum>{card.number}</BoxNum>
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}
