@@ -2,7 +2,7 @@ const projects = [
   {
     title: "Heart Disease and Stroke Prediction App",
     description:
-      "Created a Web Application that assists Health Professionals in predicting the presence of Stroke or Heart Disease in patients",
+      "Created a Web Application that assists Health Professionals in predicting the presence of Stroke or Heart Disease in patients.",
     image: "/images/streamlit.webp",
     tags: ["Python", "Machine Learning", "Streamlit"],
     source: "https://github.com/YasserShkeir/ML_HeartDisease_and_Stroke",
