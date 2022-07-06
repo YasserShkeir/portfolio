@@ -33,7 +33,7 @@ const projects = [
   {
     title: "Angular ToDo Web App",
     description:
-      "A simple ToDo Intercative WebApplication that stores your ToDo list locally",
+      "A simple ToDo Intercative Web Application that stores your ToDo list locally",
     image: "/images/ang.png",
     tags: ["Angular", "Tailwind CSS", "JSON", "Git"],
     source: "https://github.com/YasserShkeir/angToDo-page",

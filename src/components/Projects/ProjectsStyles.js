@@ -80,6 +80,8 @@ export const CardInfo = styled.p`
 
 export const UtilityList = styled.ul`
   bottom: 10%;
+  -ms-transform: translateY(-10%);
+  transform: translateY(-10%);
 
   list-style-type: none;
   padding: 0;
