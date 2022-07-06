@@ -11,9 +11,9 @@ const projects = [
     id: 0,
   },
   {
-    title: "React Meetings App\n.",
+    title: "React Meetings App{'\n'}",
     description:
-      "Created a web application that allows users to add React Meetings in their areas.",
+      "Created a web application that allows users to add React Meetings in their areas.{'\n'}",
     image: "/images/react.png",
     tags: ["Javascript", "React", "Firebase"],
     source: "https://github.com/YasserShkeir/react-meetings",
