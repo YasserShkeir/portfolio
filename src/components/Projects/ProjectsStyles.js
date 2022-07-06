@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Img = styled.img`
+  top: 50%;
+  transform: translate(0, -50%);
   height: 100px;
   object-fit: cover;
   overflow: hidden;
@@ -34,8 +36,6 @@ export const BlogCard = styled.div`
 `;
 
 export const TitleContent = styled.div`
-  top: 50%;
-  transform: translate(0, -50%);
   text-align: center;
   z-index: 20;
   width: 100%;
