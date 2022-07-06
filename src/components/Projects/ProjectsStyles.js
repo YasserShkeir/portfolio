@@ -67,10 +67,6 @@ export const Intro = styled.div`
 `;
 
 export const CardInfo = styled.p`
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-
   width: 100%;
   padding: 0 50px;
   color: #e4e6e7;
@@ -83,6 +79,8 @@ export const CardInfo = styled.p`
 `;
 
 export const UtilityList = styled.ul`
+  bottom: 10%;
+
   list-style-type: none;
   padding: 0;
   display: flex;
