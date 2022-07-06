@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Img = styled.img`
-  vertical-align: middle
+  vertical-align: middle;
   height: 100px;
   object-fit: cover;
   overflow: hidden;
