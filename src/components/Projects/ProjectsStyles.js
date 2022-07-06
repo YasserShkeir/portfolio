@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const Img = styled.img`
-  top: 50%;
-  transform: translate(0, -50%);
+  vertical-align: middle
   height: 100px;
   object-fit: cover;
   overflow: hidden;
