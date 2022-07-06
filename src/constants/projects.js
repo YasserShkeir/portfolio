@@ -11,9 +11,9 @@ const projects = [
     id: 0,
   },
   {
-    title: "React Meetings App\n",
+    title: "React Meetings App",
     description:
-      "Created a web application that allows users to add React Meetings in their areas.\n",
+      "Created a web application that allows users to add React Meetings in their areas.",
     image: "/images/react.png",
     tags: ["Javascript", "React", "Firebase"],
     source: "https://github.com/YasserShkeir/react-meetings",
@@ -42,9 +42,4 @@ const projects = [
   },
 ];
 // this is the way to work with Jest
-
-function replaceWithBr() {
-  return projects.replace(/\n/g, "<br />");
-}
-
-module.exports = { replaceWithBr };
+module.exports = { projects };
