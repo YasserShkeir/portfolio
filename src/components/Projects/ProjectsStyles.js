@@ -26,10 +26,6 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
 
-  position: relative;
-  top: 50%;
-  transform: translate(0, -50%);
-
   width: 400px;
   height: 500px;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -38,6 +34,8 @@ export const BlogCard = styled.div`
 `;
 
 export const TitleContent = styled.div`
+  top: 50%;
+  transform: translate(0, -50%);
   text-align: center;
   z-index: 20;
   width: 100%;
