@@ -27,7 +27,6 @@ export const BlogCard = styled.div`
   text-align: center;
 
   width: 400px;
-  height: 500px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -77,8 +76,6 @@ export const CardInfo = styled.p`
 `;
 
 export const UtilityList = styled.ul`
-  top: 80%;
-
   list-style-type: none;
   padding: 0;
   display: flex;

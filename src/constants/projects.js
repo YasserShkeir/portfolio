@@ -11,9 +11,9 @@ const projects = [
     id: 0,
   },
   {
-    title: "React Meetings App",
+    title: "React Meetings App<br>",
     description:
-      "Created a web application that allows users to add React Meetings in their areas.",
+      "Created a web application that allows users to add React Meetings in their areas.<br>",
     image: "/images/react.png",
     tags: ["Javascript", "React", "Firebase"],
     source: "https://github.com/YasserShkeir/react-meetings",
@@ -23,7 +23,7 @@ const projects = [
   {
     title: "Dev Portfolio Website",
     description:
-      "A mobile-first, responsive, sleek website to show off my skills.",
+      "A mobile-first, responsive, sleek website to show off my skills.<br>",
     image: "/images/dev2.png",
     tags: ["NextJS", "Node", "Cypress", "Happo.io"],
     source: "https://github.com/YasserShkeir/portfolio",
