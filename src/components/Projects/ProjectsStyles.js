@@ -79,8 +79,6 @@ export const CardInfo = styled.p`
 export const UtilityList = styled.ul`
   position: absolute;
   top: 80%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 
   list-style-type: none;
   padding: 0;
