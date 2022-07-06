@@ -77,7 +77,6 @@ export const CardInfo = styled.p`
 `;
 
 export const UtilityList = styled.ul`
-  position: absolute;
   top: 80%;
 
   list-style-type: none;
