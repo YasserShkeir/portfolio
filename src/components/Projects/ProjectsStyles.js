@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Img = styled.img`
-  justify-content: center;
   height: 100px;
   object-fit: cover;
   overflow: hidden;
@@ -33,7 +32,6 @@ export const BlogCard = styled.div`
     width: 100%;
   }
 `;
-
 export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
@@ -79,9 +77,10 @@ export const CardInfo = styled.p`
 `;
 
 export const UtilityList = styled.ul`
-  top: 90%;
-  -ms-transform: translateY(-10%);
-  transform: translateY(-10%);
+  position: absolute;
+  top: 80%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 
   list-style-type: none;
   padding: 0;
