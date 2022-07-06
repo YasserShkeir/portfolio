@@ -13,7 +13,7 @@ const projects = [
   {
     title: "React Meetings App",
     description:
-      "Created a web application that allows users to add React Meetings in their areas.\n",
+      "Created a web application that allows users to add React Meetings in their areas.",
     image: "/images/react.png",
     tags: ["Javascript", "React", "Firebase"],
     source: "https://github.com/YasserShkeir/react-meetings",
@@ -23,7 +23,7 @@ const projects = [
   {
     title: "Dev Portfolio Website",
     description:
-      "\nA mobile-first, responsive, sleek website to show off my skills.\n",
+      "A mobile-first, responsive, sleek website to show off my skills.",
     image: "/images/dev2.png",
     tags: ["NextJS", "Node", "Cypress", "Happo.io"],
     source: "https://github.com/YasserShkeir/portfolio",
@@ -33,12 +33,12 @@ const projects = [
   {
     title: "Angular ToDo Web App",
     description:
-      "A simple ToDo Intercative Web Application that stores your ToDo list locally.\n",
+      "A simple ToDo Intercative WebApplication that stores your ToDo list locally",
     image: "/images/ang.png",
     tags: ["Angular", "Tailwind CSS", "JSON", "Git"],
     source: "https://github.com/YasserShkeir/angToDo-page",
     visit: "https://yassershkeir.github.io/angToDo-page/",
-    id: 3,
+    id: 2,
   },
 ];
 // this is the way to work with Jest

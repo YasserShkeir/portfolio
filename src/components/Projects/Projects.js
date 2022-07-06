@@ -25,12 +25,6 @@ const Projects = () => (
     <SectionDivider></SectionDivider>
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {/* old way we did {projects.map((project) => 
-				however, it's redundant to keep referencing the project
-				variable like project.id, project.image...
-				So instead, we can destructure our map to look like the
-				code below.
-				*/}
       {projects.map(
         ({ id, image, title, description, tags, source, visit }) => (
           <BlogCard key={id}>
