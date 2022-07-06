@@ -79,7 +79,7 @@ export const CardInfo = styled.p`
 `;
 
 export const UtilityList = styled.ul`
-  bottom: 10%;
+  top: 90%;
   -ms-transform: translateY(-10%);
   transform: translateY(-10%);
 
