@@ -6,7 +6,8 @@ const projects = [
     image: "/images/streamlit.webp",
     tags: ["Python", "Machine Learning", "Streamlit"],
     source: "https://github.com/YasserShkeir/ML_HeartDisease_and_Stroke",
-    visit: "https://share.streamlit.io/yassershkeir/ml_heartdisease_and_stroke/main/Streamlit1.py",
+    visit:
+      "https://share.streamlit.io/yassershkeir/ml_heartdisease_and_stroke/main/Streamlit1.py",
     id: 0,
   },
   {
@@ -15,10 +16,8 @@ const projects = [
       "Created a web application that allows users to add React Meetings in their areas.",
     image: "/images/react.png",
     tags: ["Javascript", "React", "Firebase"],
-    source:
-      "https://github.com/YasserShkeir/react-meetings",
-    visit:
-      "https://yassershkeir.github.io/react-meetings/",
+    source: "https://github.com/YasserShkeir/react-meetings",
+    visit: "https://yassershkeir.github.io/react-meetings/",
     id: 1,
   },
   {
@@ -30,6 +29,16 @@ const projects = [
     source: "https://github.com/YasserShkeir/portfolio",
     visit: "https://portfolio-yassershkeir.vercel.app/",
     id: 2,
+  },
+  {
+    title: "Angular ToDo Web App",
+    description:
+      "A simple ToDo Intercative WebApplication that stores your ToDo list locally",
+    image: "/images/ang.png",
+    tags: ["Angular", "Tailwind CSS", "JSON", "Git"],
+    source: "https://github.com/YasserShkeir/angToDo-page",
+    visit: "https://yassershkeir.github.io/angToDo-page/",
+    id: 3,
   },
 ];
 // this is the way to work with Jest
